@@ -1,0 +1,106 @@
+/* global values */
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight:700;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.orange-color{
+    color: orange;
+}
+
+.flex-section{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 150px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    margin-top: 20px;
+}
+/* Hero section */
+
+#hero-section img{
+    width: 70%;
+}
+#hero-section{
+    height: 100vh;
+}
+#hero-section p{
+    margin-bottom: 35px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.first-div{
+    margin-top: 100px;
+}
+
+/* About Us section */
+
+#about-us-section{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+#about-us-section img{
+    width: 70%;
+}
+.about-me h2{
+    margin-top: 80px;
+}
+.about-me p{
+    margin-bottom: 30px;
+}
+.about-me p{
+    padding-right: 150px;
+    text-align: justify;
+}
+
+/* Blog section */
+
+#blog-section{
+    margin: 50px 0px;
+}
+#blog-section p{
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.blog-heading{
+    text-align: center;
+    margin: 0 370px;
+}
+.blog-box{
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 16px 1px #d0d0d0;
+}
+.blog-box img{
+    width: 100%;
+    height: 280px;
+    border-radius: 15px;
+}
+
+/* Footer section */
+
+footer{
+    text-align: center;
+    padding: 80px 0;
+    background-color: black;
+    color: #d0d0d0;
+}
