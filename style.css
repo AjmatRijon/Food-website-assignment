@@ -113,6 +113,8 @@ h2{
 .chef-box{
     padding-bottom: 30px;
     border-bottom: 5px solid #FC954B;
+    text-align: center;
+    line-height: 10px;
 }
 
 /*Bonus section*/
@@ -140,4 +142,26 @@ i{
     color:white;
     margin: 0 10px;
     text-decoration: none;
+}
+#newsletter{
+    border-radius: 30px;
+    margin: 100px 25px;
+    padding: 20px 0;
+    box-shadow: 0 0 16px 1px #d0d0d0;
+    text-align: center;
+
+}
+input{
+    width: 60%;
+    border: 2px solid gray;
+    padding: 14px;
+    border-radius: 150px;
+    margin-bottom:20px;
+}
+#newsletter i{
+    color: black;
+    font-size: 20px;
+    border: 2px solid gray;
+    padding: 11px 44px;
+    border-radius: 150px;
 }
