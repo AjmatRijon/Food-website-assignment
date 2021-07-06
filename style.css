@@ -19,6 +19,7 @@ h2{
 .flex-section{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .button{
     text-decoration: none;
@@ -58,10 +59,6 @@ h2{
     margin-left: 5%;
 }
 
-.first-div{
-    margin-top: 10%;
-}
-
 /* About Us section */
 
 #about-us-section{
@@ -75,9 +72,7 @@ h2{
 #about-us-section img{
     width: 70%;
 }
-.about-me{
-    margin-top: 8%;
-}
+
 .about-me p{
     margin-bottom: 30px;
 }
@@ -140,4 +135,8 @@ footer{
     background-color: black;
     color: #d0d0d0;
 }
-
+i{
+    color:white;
+    margin: 0 10px;
+    text-decoration: none;
+}
