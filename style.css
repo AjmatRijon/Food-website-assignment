@@ -21,6 +21,11 @@ h2{
     justify-content: center;
     align-items: center;
 }
+
+.side-margin {
+    margin: 0px 45px;
+}
+
 .button{
     text-decoration: none;
     padding: 12px 20px;
@@ -36,8 +41,8 @@ h2{
 
 .card{
     width: 30%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
     padding: 15px;
     border-radius: 30px;
     box-shadow: 0px 0px 16px 1px #d0d0d0;
@@ -100,17 +105,17 @@ h2{
 
 
 
-/*chef section*/
+/*Team section*/
 
-#chef-section{
+#team-section{
     margin: 150px 0;
 }
-.chef-box img{
+.team-box img{
     width: 100%;
-    height: 80%;
+    height: 400px;
     border-radius: 30px;
 }
-.chef-box{
+.team-box{
     padding-bottom: 30px;
     border-bottom: 5px solid #FC954B;
     text-align: center;
@@ -121,7 +126,7 @@ h2{
 
 #counter-section{
     border-radius: 30px;
-    margin: 100px 25px;
+    margin: 100px 50px;
     padding: 20px 0;
     box-shadow: 0 0 16px 1px #d0d0d0;
 }
@@ -145,7 +150,7 @@ i{
 }
 #newsletter{
     border-radius: 30px;
-    margin: 100px 25px;
+    margin: 100px 50px;
     padding: 20px 0;
     box-shadow: 0 0 16px 1px #d0d0d0;
     text-align: center;
